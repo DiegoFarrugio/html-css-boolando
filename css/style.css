@@ -49,8 +49,23 @@ width: 120px;
     background-color: lightgray;
 }
 
-.size-foto{
+.size-foto,  .second-image{
     width: 100%;
+}
+
+.second-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.img-product{
+    position: relative;
+}
+
+.img-product:hover .second-image{
+    display: inline-block;
 }
 
 .div-heart-position{
@@ -65,6 +80,11 @@ width: 120px;
     font-size: 1.5em;
     background-color: white;
     margin-top: 5px;
+    display: inline-block;
+}
+
+.heart:hover{
+    color: red;
 }
 
 .sale, .sostenibilita{
